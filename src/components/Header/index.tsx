@@ -13,15 +13,17 @@ const Header: React.FC = () => {
         <Form>
           <input defaultValue="Florianópolis, Brasil" />
           <input defaultValue="9 de mai. - 12 de mai." />
-          <input placeholder="Insira o número de hóspedes" />
+          <input id="insert" placeholder="Insira o número de hóspedes" />
           <button>
-            <FiSearch size={20} />
+            <FiSearch size={20} color={'#FF385C'} />
           </button>
         </Form>
         <div>
-          <GiWorld size={20} />
+          <button>
+            <GiWorld size={20} />
+          </button>
           <a href="https://www.airbnb.com.br">Ajuda</a>
-          <a href="https://www.airbnb.com.br">Cadastrar</a>
+          <a href="https://www.airbnb.com.br">Cadastrar-se</a>
         </div>
       </Container>
     </>

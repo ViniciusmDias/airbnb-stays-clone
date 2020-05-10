@@ -57,7 +57,7 @@ const Bedrooms: React.FC = () => {
         <Items>
           {bedrooms.map((bedroom) => (
             <Bedroom>
-              <img src={bedroom.photo} alt="bedroom photo" />
+              <img src={bedroom.photo} alt="bedroom" />
               <aside>
                 <div>
                   <button>SuperHost</button>
@@ -75,9 +75,9 @@ const Bedrooms: React.FC = () => {
                   </button>
                   <div className="price">
                     <h3>R${bedroom.price / 4}/noite</h3>
-                    <h2>
+                    <h4>
                       Total de R$ {bedroom.price} <FaQuestion size={8} />
-                    </h2>
+                    </h4>
                   </div>
                 </div>
               </aside>
