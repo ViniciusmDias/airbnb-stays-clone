@@ -3,7 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 60%;
+
+  @media (min-width: 760px) {
+    width: 60%;
+  }
 `;
 export const Items = styled.div`
   display: flex;
@@ -14,6 +17,11 @@ export const Bedroom = styled.a`
   margin-bottom: 4vh;
   padding-bottom: 4vh;
   border-bottom: 1px solid #e0e0e0;
+  flex-direction: column;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
 
   section {
     button {
@@ -45,9 +53,13 @@ export const Bedroom = styled.a`
       }
     }
     img {
-      width: 300px;
-      height: 200px;
       border-radius: 4px;
+      width: 100%;
+      height: 100%;
+      @media (min-width: 760px) {
+        width: 300px;
+        height: 200px;
+      }
     }
   }
 

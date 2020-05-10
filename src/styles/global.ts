@@ -9,8 +9,15 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body, button {
-    font: 16px 'Montserrat', sans-serif;
+    font: 11px 'Montserrat', sans-serif;
     color: rgb(34, 34, 34);
+
+    @media (min-width: 760px) {
+      font: 14px;
+    }
+    @media (min-width: 1024px) {
+      font: 16px;
+    }
   }
   button {
     cursor: pointer;
