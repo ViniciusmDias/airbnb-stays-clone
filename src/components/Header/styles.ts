@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
   padding: 0 2vw;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  width: 100%;
+  z-index: 5;
   img {
     width: 102px;
   }
@@ -15,7 +19,7 @@ export const Container = styled.header`
     display: flex;
     align-items: center;
 
-    button {
+    .world {
       padding: 12px 18px;
       border-radius: 22px;
       background-color: #fff;
@@ -73,7 +77,10 @@ export const Form = styled.form`
     width: 220px;
     font-weight: 400;
   }
-  button {
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0px 19px;
     margin: 0;
     border: 0;
