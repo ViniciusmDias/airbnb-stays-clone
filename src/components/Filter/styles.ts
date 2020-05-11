@@ -23,6 +23,10 @@ export const Container = styled.div`
     align-items: center;
     flex-wrap: wrap;
 
+    @media (min-width: 765px) {
+      flex-wrap: nowrap;
+    }
+
     button {
       border: 1px solid rgb(176, 176, 176);
       background-color: rgb(255, 255, 255);
