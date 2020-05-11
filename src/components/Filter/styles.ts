@@ -21,6 +21,7 @@ export const Container = styled.div`
   div {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
     button {
       border: 1px solid rgb(176, 176, 176);
