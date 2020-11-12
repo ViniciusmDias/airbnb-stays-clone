@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import { Container, Items, Bedroom } from './styles';
 import { MdStar } from 'react-icons/md';
@@ -6,13 +6,6 @@ import { GiCutDiamond } from 'react-icons/gi';
 import { FaQuestion } from 'react-icons/fa';
 import { FiHeart } from 'react-icons/fi';
 import Filter from '../Filter';
-import api from '../../services/api';
-
-/* interface BedroomsData {
-  photo: string;
-  name: string;
-  price: number;
-}*/
 
 const bedrooms = [
   {
@@ -54,15 +47,6 @@ const bedrooms = [
 ];
 
 const Bedrooms: React.FC = () => {
-  /*const [bedrooms, setBedrooms] = useState<BedroomsData[]>([]);
-
-  useEffect(() => {
-    api.get(``).then((response) => {
-      setBedrooms(response.data);
-      console.log(response.data);
-    });
-  }, []);*/
-
   return (
     <>
       <Container>
