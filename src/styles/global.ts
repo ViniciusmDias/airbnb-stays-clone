@@ -2,6 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 
+  #root {
+    display: flex;
+    justify-content: center;
+  }
+
   * {
     margin: 0;
     padding: 0;

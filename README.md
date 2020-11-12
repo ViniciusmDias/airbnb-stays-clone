@@ -1,6 +1,4 @@
-This is one of the projects developed in [Gama Experience](https://gama.academy/experience/), the Bootcamp of [GamaAcademy](https://gama.academy).
-
-In this project my challenge is: Create a page similar to Airbnb using the API of rooms, from this database [here](https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72).
+In this project I Create a page similar to Airbnb.
 
 ## Requirements
 

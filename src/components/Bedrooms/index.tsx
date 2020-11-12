@@ -8,22 +8,60 @@ import { FiHeart } from 'react-icons/fi';
 import Filter from '../Filter';
 import api from '../../services/api';
 
-interface BedroomsData {
+/* interface BedroomsData {
   photo: string;
-  property_type: string;
   name: string;
   price: number;
-}
+}*/
+
+const bedrooms = [
+  {
+    photo:
+      'https://a0.muscache.com/im/pictures/48ae5ca7-7341-486f-beb5-51487db1f582.jpg?aki_policy=x_large',
+    name: 'Bangalô Homeoffice C/ Saída Exclusiva Para a Praia',
+    price: 100,
+  },
+  {
+    photo:
+      'https://a0.muscache.com/im/pictures/48ae5ca7-7341-486f-beb5-51487db1f582.jpg?aki_policy=x_large',
+    name: 'Bangalô Homeoffice C/ Saída Exclusiva Para a Praia',
+    price: 100,
+  },
+  {
+    photo:
+      'https://a0.muscache.com/im/pictures/48ae5ca7-7341-486f-beb5-51487db1f582.jpg?aki_policy=x_large',
+    name: 'Bangalô Homeoffice C/ Saída Exclusiva Para a Praia',
+    price: 100,
+  },
+  {
+    photo:
+      'https://a0.muscache.com/im/pictures/48ae5ca7-7341-486f-beb5-51487db1f582.jpg?aki_policy=x_large',
+    name: 'Bangalô Homeoffice C/ Saída Exclusiva Para a Praia',
+    price: 100,
+  },
+  {
+    photo:
+      'https://a0.muscache.com/im/pictures/48ae5ca7-7341-486f-beb5-51487db1f582.jpg?aki_policy=x_large',
+    name: 'Bangalô Homeoffice C/ Saída Exclusiva Para a Praia',
+    price: 100,
+  },
+  {
+    photo:
+      'https://a0.muscache.com/im/pictures/48ae5ca7-7341-486f-beb5-51487db1f582.jpg?aki_policy=x_large',
+    name: 'Bangalô Homeoffice C/ Saída Exclusiva Para a Praia',
+    price: 100,
+  },
+];
 
 const Bedrooms: React.FC = () => {
-  const [bedrooms, setBedrooms] = useState<BedroomsData[]>([]);
+  /*const [bedrooms, setBedrooms] = useState<BedroomsData[]>([]);
 
   useEffect(() => {
     api.get(``).then((response) => {
       setBedrooms(response.data);
       console.log(response.data);
     });
-  }, []);
+  }, []);*/
 
   return (
     <>
